@@ -2,7 +2,17 @@
 
 ## Description
 
+This application is the back end for an E-Commerce site. It is a functional Express.js API that uses Sequelize to interact with a PostgreSQL database. The API routes are fully functional and tested using Insomnia.
 
+When you add your DB name, PostgreSQL username and PostgreSQL password to the .env you are able to connect to the DB using Sequelize.
+
+When you enter schema and seed commands, a database is created and seeded with test data.
+
+When you enter the command to invoke the app, your server is started and the Sequelize models are synced to the PostgreSQL database.
+
+When you open API GET routes in Insomnia for categories, products or tags the data for each of those routes is displayed in a formatted JSON.
+
+When you test API POST, PUT and DELETE routes in Insomnia, you are able to successfully create, update and delete data in the database.
 
 
 ## Table of Contents
